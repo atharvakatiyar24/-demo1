@@ -33,14 +33,11 @@ int main()
 		printf("grade:D");
 	
 	}
-	else if (per>=40)
+	else
 	{
 		printf(" FAIL");
 	}
-	else 
-	{
-		printf("NO grade awarded");
-	}
+	
 	return(0);
 	}	
 	
