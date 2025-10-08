@@ -1,0 +1,46 @@
+#include<stdio.h>
+int main()
+{
+	float per;
+	int eng,hin,mat,phy,che;
+	printf("enter the marks of english =\n");
+	
+	printf("enter the marks of hindi =\n");
+	
+	printf("enter the marks of maths =\n");
+	
+	printf("enter the marks of physics =\n");
+	
+	printf("enter the marks of chemistry =\n");
+	scanf("%d %d %d %d %d",&eng,&hin,&mat,&phy,&che);
+	per= (eng+hin+mat+phy+che)/5;
+	printf("total percent = %.2f\n",per);
+	if (per>=90)
+	{
+		printf("grade: A");
+	}
+	else if(per>=80)
+	{
+		printf("grade:B");
+	}
+	else if(per>=70)
+	{
+		printf("grade:C");
+	
+	}
+	else if (per>=60)
+	{
+		printf("grade:D");
+	
+	}
+	else if (per>=40)
+	{
+		printf(" FAIL");
+	}
+	else 
+	{
+		printf("NO grade awarded");
+	}
+	return(0);
+	}	
+	
